@@ -10,7 +10,7 @@ class LlmsTxt extends Module
         $this->name = 'llmstxt';
         $this->tab = 'others';
         $this->version = '1.0.0';
-        $this->author = 'Tu Nombre';
+        $this->author = 'JesusFA';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
         $this->bootstrap = true;
