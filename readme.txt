@@ -25,7 +25,7 @@ llmstxt is a PrestaShop module designed to generate a structured `llms.txt` file
 - Save the settings and click "Generar llms.txt" to create or update the file.
 
 ## Output
-The generated `llms.txt` file is saved at `[your-store-root]/llms.txt`. Example URL: `https://www.staring.es/llms.txt`.
+The generated `llms.txt` file is saved at `[your-store-root]/llms.txt`. 
 
 ## File Structure
 The `llms.txt` file is organized as follows:
