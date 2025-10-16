@@ -30,6 +30,14 @@
   - Renamed sections: "Negocio", "Web", "Redes Sociales", "Categorías Principales", etc.
   - Integrated URLs by language into "Web" section.
   - Standardized format with `Clave: Valor` for consistency.
+- ** Optimization (2025-10-16)**:
+  - La clase principal pasa a llamarse `llmstxt` para coincidir exactamente con el nombre del módulo y garantizar la instalación fiable en todos los entornos.
+  - Actualizada la compatibilidad declarada a `min: 1.7.0.0`, `max: 8.99.99`.
+- `install()` y `uninstall()` reorganizados para cortes limpios en caso de error y mejor legibilidad.
+- Documentación (readme) ampliada con solución de problemas, permisos y buenas prácticas.
+- Cooregidos potenciales falsos negativos del validador de versión en ciertas instalaciones.
+
+
 
 ## Notes
 - All changes were iterative based on user feedback to improve functionality and AI readability.
