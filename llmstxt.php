@@ -3,7 +3,7 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
-class LlmsTxt extends Module
+class llmstxt extends Module
 {
     public function __construct()
     {
@@ -12,9 +12,8 @@ class LlmsTxt extends Module
         $this->version = '1.1.0'; // Versión actualizada
         $this->author = 'JesusFA';
         $this->need_instance = 0;
-        $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
+        $this->ps_versions_compliancy = array('min' => '1.7.0.0','max' => '8.99.99');
         $this->bootstrap = true;
-
         parent::__construct();
 
         $this->displayName = 'LLMs.txt Generator';
